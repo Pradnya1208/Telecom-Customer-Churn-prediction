@@ -113,14 +113,16 @@ We could use Hyperparameter Tuning or Feature enginnering methods to improve the
 Here are some related projects
 
 [Bank Customer Churn Prediction](https://github.com/Pradnya1208/Bank-customers-churn-prediction)
-### 🚀 About Me
-#### Hi, I'm Pradnya! 👋
-I am an AI Enthusiast and  Data science & ML practitioner
 
 
 ### Feedback
 
 If you have any feedback, please reach out at pradnyapatil671@gmail.com
+
+### 🚀 About Me
+#### Hi, I'm Pradnya! 👋
+I am an AI Enthusiast and  Data science & ML practitioner
+
 
 [1]: https://github.com/Pradnya1208
 [2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
