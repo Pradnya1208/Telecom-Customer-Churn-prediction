@@ -90,7 +90,8 @@ To detect early signs of potential churn, one must first develop a holistic view
 
 #### 11. Distribution w.r.t Charges and Tenure:
 > ![Monthly Charges](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/carges%20distribution.PNG?raw=true)
-![Total Charges](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/total%20charges.PNG?raw=true)
-![Tenure](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/tenure%20and%20churn.PNG?raw=true)
-> Customers with higher Monthly Charges are also more likely to churn
+> ![Total Charges](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/total%20charges.PNG?raw=true)
+> ![Tenure](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/tenure%20and%20churn.PNG?raw=true)
+
+> Customers with higher Monthly Charges are also more likely to churn.
 > New customers are more likely to churn.
