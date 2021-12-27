@@ -38,21 +38,21 @@ To detect early signs of potential churn, one must first develop a holistic view
 ### Few glimpses of EDA:
 #### 1. Churn distribution:
 
-![Churn distribution](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Churn%20Distribution.png?raw=true)
+> ![Churn distribution](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Churn%20Distribution.png?raw=true)
 > 26.6 % of customers switched to another firm.
 
 #### 2. Churn distribution with respect to gender:
-![Churn distribution wrt Gender](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/distributionWRTGender.PNG?raw=true)
+> ![Churn distribution wrt Gender](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/distributionWRTGender.PNG?raw=true)
 
 
 > There is negligible difference in customer percentage/ count who chnaged the service provider. Both genders behaved in similar fashion when it comes to migrating to another service provider/firm.`
 
 #### 3. Customer Contract distribution:
-![Customer contract distribution](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Contract%20distribution.png?raw=true)
+> ![Customer contract distribution](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Contract%20distribution.png?raw=true)
 > About 75% of customer with Month-to-Month Contract opted to move out as compared to 13% of customrs with One Year Contract and 3% with Two Year Contract
 
 #### 4. Payment Methods:
-![Distribution of Payments methods](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/payment%20methods.png?raw=true) ![Churn wrt payment methods](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/payment%20ethods%20with%20respectto%20churn.PNG?raw=true)
+> ![Distribution of Payments methods](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/payment%20methods.png?raw=true) ![Churn wrt payment methods](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/payment%20ethods%20with%20respectto%20churn.PNG?raw=true)
 
 > Major customers who moved out were having Electronic Check as Payment Method.
 > Customers who opted for Credit-Card automatic transfer or Bank Automatic Transfer and Mailed Check as Payment Method were less likely to move out.
