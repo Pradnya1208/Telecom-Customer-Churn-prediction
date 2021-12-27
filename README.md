@@ -100,7 +100,7 @@ To detect early signs of potential churn, one must first develop a holistic view
 ![ML Algorithms](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Model%20evaluation.PNG?raw=true)
 
 #### Results after K fold cross validation:
-`Model evaluation is most commonly done through ‘K- fold Cross-Validation’ technique that primarily helps us to fix the variance. Variance problem occurs when we get good accuracy while running the model on a training set and a test set but then the accuracy looks different when the model is run on another test set. So, in order to fix the variance problem, k-fold cross-validation basically split the training set into 10 folds and train the model on 9 folds (9 subsets of the training dataset) before testing it on the test fold. This gives us the flexibility to train our model on all ten combinations of 9 folds; giving ample room to finalize the variance.`
+
 ![Logistic Regression](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/LR.PNG?raw=true) 
 ![KNN](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/KNN.PNG?raw=true)
 ![Naive Bayes](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Naive%20Bayes.PNG?raw=true)
@@ -109,3 +109,27 @@ To detect early signs of potential churn, one must first develop a holistic view
 ![Adaboost](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Adaboost.PNG?raw=true)
 ![Gradient Boost](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Gradient%20boost.PNG?raw=true)
 ![Voting Classifier](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Voting%20Classifier.PNG?raw=true)
+
+
+#### Final Model: Voting Classifier
+* We have selected Gradient boosting, Logistic Regression, and Adaboost for our Voting Classifier.
+```
+    from sklearn.ensemble import VotingClassifier
+    clf1 = GradientBoostingClassifier()
+    clf2 = LogisticRegression()
+    clf3 = AdaBoostClassifier()
+    eclf1 = VotingClassifier(estimators=[('gbc', clf1), ('lr', clf2), ('abc', clf3)], voting='soft')
+    eclf1.fit(X_train, y_train)
+    predictions = eclf1.predict(X_test)
+    print("Final Accuracy Score ")
+    print(accuracy_score(y_test, predictions))
+```
+```
+Final Accuracy Score 
+0.8170616113744076
+
+```
+* Final confusion matrix we got:
+<img src= "https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/confusion%20matrix.PNG?raw=true" width = "425" />
+
+>From the confusion matrix we can see that: There are total 1400+149=1549 actual non-churn values and the algorithm predicts 1400 of them as non churn and 149 of them as churn. While there are 237+324=561 actual churn values and the algorithm predicts 237 of them as non churn values and 324 of them as churn values.
