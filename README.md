@@ -31,7 +31,7 @@ To detect early signs of potential churn, one must first develop a holistic view
 - Demographic info about customers – gender, age range, and if they have partners and dependents
 ## Implementation:
 
-**Libraries:** sklearn, Matplotlib, pandas, seaborn, and NumPy
+**Libraries:** `sklearn`, `Matplotlib`, `pandas`, `seaborn`, and `NumPy`
 
 
 
