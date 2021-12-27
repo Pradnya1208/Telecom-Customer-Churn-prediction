@@ -66,7 +66,7 @@ To detect early signs of potential churn, one must first develop a holistic view
 ### 6. Dependent distribution:
 
 > Customers without dependents are more likely to churn.
-![Churn distribution w.r.t dependents](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/dependents.PNG?raw=true)
+![Churn distribution w.r.t dependents](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/dependents.PNG?raw=true)
 
 ### 7. Online Security:
 
