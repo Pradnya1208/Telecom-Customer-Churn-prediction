@@ -39,51 +39,58 @@ To detect early signs of potential churn, one must first develop a holistic view
 #### 1. Churn distribution:
 
 ![Churn distribution](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Churn%20Distribution.png?raw=true)
-`26.6 % of customers switched to another firm.`
+> 26.6 % of customers switched to another firm.
 
 #### 2. Churn distribution with respect to gender:
 ![Churn distribution wrt Gender](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/distributionWRTGender.PNG?raw=true)
 
 
-`There is negligible difference in customer percentage/ count who chnaged the service provider. Both genders behaved in similar fashion when it comes to migrating to another service provider/firm.`
+> There is negligible difference in customer percentage/ count who chnaged the service provider. Both genders behaved in similar fashion when it comes to migrating to another service provider/firm.`
 
 #### 3. Customer Contract distribution:
 ![Customer contract distribution](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Contract%20distribution.png?raw=true)
-`About 75% of customer with Month-to-Month Contract opted to move out as compared to 13% of customrs with One Year Contract and 3% with Two Year Contract`
+> About 75% of customer with Month-to-Month Contract opted to move out as compared to 13% of customrs with One Year Contract and 3% with Two Year Contract
 
 #### 4. Payment Methods:
 ![Distribution of Payments methods](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/payment%20methods.png?raw=true) ![Churn wrt payment methods](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/payment%20ethods%20with%20respectto%20churn.PNG?raw=true)
 
-`Major customers who moved out were having Electronic Check as Payment Method.`
-`Customers who opted for Credit-Card automatic transfer or Bank Automatic Transfer and Mailed Check as Payment Method were less likely to move out.`
+> Major customers who moved out were having Electronic Check as Payment Method.
+> Customers who opted for Credit-Card automatic transfer or Bank Automatic Transfer and Mailed Check as Payment Method were less likely to move out.
 
 #### 5. Internet services:
 
-`Several customers choose the Fiber optic service and it's also evident that the customers who use Fiber optic have high churn rate, this might suggest a dissatisfaction with this type of internet service.`
-`Customers having DSL service are majority in number and have less churn rate compared to Fibre optic service.`
+> Several customers choose the Fiber optic service and it's also evident that the customers who use Fiber optic have high churn rate, this might suggest a dissatisfaction with this type of internet service.
+> Customers having DSL service are majority in number and have less churn rate compared to Fibre optic service.
 ![Churn distribution w.r.t Internet services and Gender](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/internet%20services.PNG?raw=true)
 
 #### 6. Dependent distribution:
 
-`Customers without dependents are more likely to churn.`
+> Customers without dependents are more likely to churn.
 ![Churn distribution w.r.t dependents](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/dependents.PNG?raw=true)
 
 #### 7. Online Security:
 
-`As shown in following graph, most customers churn due to lack of online security`
+> As shown in following graph, most customers churn due to lack of online security
 ![Churn distribution w.r.t online security](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/onlineSecurity.PNG?raw=true)
 
 #### 8. Senior Citizen:
 
-`Most of the senior citizens churn; the number of senior citizens are very less in over all customer base.`
+> Most of the senior citizens churn; the number of senior citizens are very less in over all customer base.
 ![Churn distribution w.r.t Senior Citizen](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/seniorCitzen.PNG?raw=true)
 
 #### 9. Paperless Billing:
 
- `Customers with Paperless Billing are most likely to churn.`
- ![Churn distribution w.r.t mode of billing](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/billing.PNG?raw=true)
+> Customers with Paperless Billing are most likely to churn.
+![Churn distribution w.r.t mode of billing](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/billing.PNG?raw=true)
 
 #### 10. Tech support:
 
-`As shown in following chart, customers with no TechSupport are most likely to migrate to another service provider.`
+> As shown in following chart, customers with no TechSupport are most likely to migrate to another service provider.
 ![Churn distribution w.r.t Tech support](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/techSupport.PNG?raw=true)
+
+#### 11. Distribution w.r.t Charges and Tenure:
+![Monthly Charges](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/carges%20distribution.PNG?raw=true)
+![Total Charges](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/total%20charges.PNG?raw=true)
+![Tenure](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/tenure%20and%20churn.PNG?raw=true)
+> Customers with higher Monthly Charges are also more likely to churn
+> New customers are more likely to churn.
