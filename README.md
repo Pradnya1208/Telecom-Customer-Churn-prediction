@@ -159,11 +159,13 @@ I am an AI Enthusiast and  Data science & ML practitioner
 [1]: https://github.com/Pradnya1208
 [2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
 [3]: https://public.tableau.com/app/profile/pradnya.patil3254#!/
+[4]: https://twitter.com/Pradnya1208
 
 
 [![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
 [![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/74e98131bcd2ed469ade93d016124152d6b2fe31/icons/linkedin.svg)][2]
 [![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
+[![twitter](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/90fd7bc795cc91953e5e00ce8249da45dd7063ba/icons/iconmonstr-twitter-5.svg][4]
 
 
 
