@@ -96,28 +96,54 @@ To detect early signs of potential churn, one must first develop a holistic view
 > Customers with higher Monthly Charges are also more likely to churn.<br>
 > New customers are more likely to churn.
 
-### Feedback
+## Machine Learning Model Evaluations and Predictions:
+![ML Algorithms](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Model%20evaluation.PNG?raw=true)
 
-If you have any feedback, please reach out at pradnyapatil671@gmail.com
+#### Results after K fold cross validation:
 
+![Logistic Regression](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/LR.PNG?raw=true) 
+![KNN](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/KNN.PNG?raw=true)
+![Naive Bayes](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Naive%20Bayes.PNG?raw=true)
+![Decision Tree](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Decision%20trees.PNG?raw=true)
+![Random Forest](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Random%20Forest.PNG?raw=true)
+![Adaboost](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Adaboost.PNG?raw=true)
+![Gradient Boost](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Gradient%20boost.PNG?raw=true)
+![Voting Classifier](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Voting%20Classifier.PNG?raw=true)
 
-### Optimizations
+![Confusion Matrix](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/confusion_matrix_models.PNG?raw=true)
+#### Final Model: Voting Classifier
+* We have selected Gradient boosting, Logistic Regression, and Adaboost for our Voting Classifier.
+```
+    from sklearn.ensemble import VotingClassifier
+    clf1 = GradientBoostingClassifier()
+    clf2 = LogisticRegression()
+    clf3 = AdaBoostClassifier()
+    eclf1 = VotingClassifier(estimators=[('gbc', clf1), ('lr', clf2), ('abc', clf3)], voting='soft')
+    eclf1.fit(X_train, y_train)
+    predictions = eclf1.predict(X_test)
+    print("Final Accuracy Score ")
+    print(accuracy_score(y_test, predictions))
+```
+```
+Final Score 
+{'LogisticRegression': [0.841331397558646, 0.010495252078550477],
+ 'KNeighborsClassifier': [0.7913242024807321, 0.008198993337848612],
+ 'GaussianNB': [0.8232386881685605, 0.00741678015498337],
+ 'DecisionTreeClassifier': [0.6470213137060805, 0.02196953973039052],
+ 'RandomForestClassifier': [0.8197874155380965, 0.011556155864106703],
+ 'AdaBoostClassifier': [0.8445838813774079, 0.01125665302188384],
+ 'GradientBoostingClassifier': [0.844630629931458, 0.010723107447558198],
+ 'VotingClassifier': [0.8468096379573085, 0.010887508320460332]}
 
-We could use Hyperparameter Tuning or Feature enginnering methods to improve the accuracy further.
+```
+* Final confusion matrix we got:
+<img src= "https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/confusion%20matrix.PNG?raw=true" width = "425" />
 
-### Lessons Learned
+>From the confusion matrix we can see that: There are total 1383+166=1549 actual non-churn values and the algorithm predicts 1400 of them as non churn and 149 of them as churn. While there are 280+280=561 actual churn values and the algorithm predicts 280 of them as non churn values and 281 of them as churn values.
+## Optimizations
 
-`Feature Engineering`
-`Classification Algorithms`
-`Voting Classifier`
-`Model Evaluation`
+We could use Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
 
-
-### Related
-
-Here are some related projects
-
-[Bank Customer Churn Prediction](https://github.com/Pradnya1208/Bank-customers-churn-prediction)
 ### 🚀 About Me
 #### Hi, I'm Pradnya! 👋
 I am an AI Enthusiast and  Data science & ML practitioner
@@ -126,6 +152,7 @@ I am an AI Enthusiast and  Data science & ML practitioner
 ### Feedback
 
 If you have any feedback, please reach out at pradnyapatil671@gmail.com
+
 
 
 
