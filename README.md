@@ -1,5 +1,5 @@
 
-# Telecom Customer Churn Prediction
+# <div align="center">Telecom Customer Churn Prediction</div>
 
 ![Intro](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/customer%20churn.jpeg?raw=true)
 
