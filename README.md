@@ -125,8 +125,15 @@ To detect early signs of potential churn, one must first develop a holistic view
     print(accuracy_score(y_test, predictions))
 ```
 ```
-Final Accuracy Score 
-0.8170616113744076
+Final Score 
+{'LogisticRegression': [0.841331397558646, 0.010495252078550477],
+ 'KNeighborsClassifier': [0.7913242024807321, 0.008198993337848612],
+ 'GaussianNB': [0.8232386881685605, 0.00741678015498337],
+ 'DecisionTreeClassifier': [0.6470213137060805, 0.02196953973039052],
+ 'RandomForestClassifier': [0.8197874155380965, 0.011556155864106703],
+ 'AdaBoostClassifier': [0.8445838813774079, 0.01125665302188384],
+ 'GradientBoostingClassifier': [0.844630629931458, 0.010723107447558198],
+ 'VotingClassifier': [0.8468096379573085, 0.010887508320460332]}
 
 ```
 * Final confusion matrix we got:
