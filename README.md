@@ -107,10 +107,10 @@ We could use Hyperparameter Tuning or Feature enginnering methods to improve the
 
 ### Lessons Learned
 
-* Feature Engineering
-* Classification Algorithms
-* Voting Classifier
-* Model Evaluation
+`Feature Engineering`
+`Classification Algorithms`
+`Voting Classifier`
+`Model Evaluation`
 
 
 ### Related
