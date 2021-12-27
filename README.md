@@ -144,15 +144,10 @@ Final Score
 
 We could use Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
 
-### 🚀 About Me
-#### Hi, I'm Pradnya! 👋
-I am an AI Enthusiast and  Data science & ML practitioner
-
 
 ### Feedback
 
 If you have any feedback, please reach out at pradnyapatil671@gmail.com
-
 
 
 
