@@ -110,7 +110,7 @@ To detect early signs of potential churn, one must first develop a holistic view
 ![Gradient Boost](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Gradient%20boost.PNG?raw=true)
 ![Voting Classifier](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/Voting%20Classifier.PNG?raw=true)
 
-
+![Confusion Matrix](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/confusion_matrix_models.PNG?raw=true)
 #### Final Model: Voting Classifier
 * We have selected Gradient boosting, Logistic Regression, and Adaboost for our Voting Classifier.
 ```
