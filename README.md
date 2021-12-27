@@ -31,7 +31,7 @@ To detect early signs of potential churn, one must first develop a holistic view
 - Demographic info about customers – gender, age range, and if they have partners and dependents
 ## Implementation:
 
-**Libraries:** `sklearn` `Matplotlib` `pandas` `seaborn` `NumPy`
+**Libraries:** sklearn, Matplotlib, pandas, seaborn, and NumPy
 
 
 
@@ -66,7 +66,7 @@ To detect early signs of potential churn, one must first develop a holistic view
 ### 6. Dependent distribution:
 
 > Customers without dependents are more likely to churn.
-![Churn distribution w.r.t dependents](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/dependents.PNG?raw=true)
+![Churn distribution w.r.t dependents](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/dependents.PNG?raw=true)
 
 ### 7. Online Security:
 
@@ -96,6 +96,11 @@ To detect early signs of potential churn, one must first develop a holistic view
 > Customers with higher Monthly Charges are also more likely to churn.<br>
 > New customers are more likely to churn.
 
+### Feedback
+
+If you have any feedback, please reach out at pradnyapatil671@gmail.com
+
+
 ### Optimizations
 
 We could use Hyperparameter Tuning or Feature enginnering methods to improve the accuracy further.
@@ -113,11 +118,16 @@ We could use Hyperparameter Tuning or Feature enginnering methods to improve the
 Here are some related projects
 
 [Bank Customer Churn Prediction](https://github.com/Pradnya1208/Bank-customers-churn-prediction)
+### 🚀 About Me
+#### Hi, I'm Pradnya! 👋
+I am an AI Enthusiast and  Data science & ML practitioner
 
 
 ### Feedback
 
 If you have any feedback, please reach out at pradnyapatil671@gmail.com
+
+
 
 ### 🚀 About Me
 #### Hi, I'm Pradnya! 👋
