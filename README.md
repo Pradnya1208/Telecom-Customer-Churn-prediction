@@ -96,11 +96,6 @@ To detect early signs of potential churn, one must first develop a holistic view
 > Customers with higher Monthly Charges are also more likely to churn.<br>
 > New customers are more likely to churn.
 
-### Feedback
-
-If you have any feedback, please reach out at pradnyapatil671@gmail.com
-
-
 ### Optimizations
 
 We could use Hyperparameter Tuning or Feature enginnering methods to improve the accuracy further.
